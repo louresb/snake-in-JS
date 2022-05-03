@@ -1,15 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Snake Game</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
+    <title>Juego de la serpiente</title>
 </head>
 <body>
-    <h1>SNAKE GAME!</h1>
-    <canvas id="snake" width="512" height="512"></canvas>
+    <h1>SNAKE GAME</h1>
+    <div class="juego">
+        <div class="instrucciones">
+            <p>El Snake (a veces también llamado serpiente) es un videojuego clássico lanzado a mediados de la década de 1970.
+        </br>    
+        </br> 
+        </br>
+        </br>
+        Para jugar usa las flechas del teclado:</p>
+        </br>
+        </br>
+            <img class="botones" src="img/instrucciones.png" alt="botones de dirección">
+            <p>Come la manzana para hacer crecer la serpiente.
+            </br>    
+            </br>
+            Si la cabeza de la serpiente toca otra parte del cuerpo, se acaba el juego.
+            </br>
+            </br>
+            </br>    
+            ¡Buena suerte!</p>
+        </div>
+        <canvas id="snake" width="512" height="512"></canvas>
+    </div>   
 </body>
 </html>
