@@ -1,10 +1,40 @@
+:root{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
 body{
     height: 95vh;
-    width: 95vw;
+    width: 95;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:white;
-    color: rgb(52, 165, 52);
+    flex-direction: column;
+    color: white;
+    background-color: rgb(13, 126, 219);
+}
+
+.instrucciones {
+
+    display: inline-block; 
+    width: 512px;
+    height: 512px;
+    position: relative;
+    padding: 50px;
+  
+}
+
+.botones{
+    height: 150px;
+    width: 240px;
+    padding-left: 140px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.instrucciones p{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 0;
+    height: 100px;
 }
