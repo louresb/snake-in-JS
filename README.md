@@ -5,7 +5,7 @@ Learned important concepts like push, pop, setInterval, clearInterval and eventL
 
 ### Changes:
 
-* I developed the page in Spanish
+* Webpage in spanish
 * Added user instructions
 * Added js code to avoid a invisible line bug as other devs had noticed and made a pull request to the main
 
